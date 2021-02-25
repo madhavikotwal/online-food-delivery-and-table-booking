@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+<body>
+    <h1>Sookon Online Food</h1>
+    <a href="index.html"> Home</a> |
+    <a href="aboutus.html"> About us</a> |
+    <a href="contact.html"> Contact us</a> |
+    <a href="login.html"> Sign In</a> |
+    <a href="register.html"> Register</a> |
+    <hr/>
+
+    <hr/>
+    <h1>chilly paneer</h1>
+    <p>You are not allowed to access web content.....</p>
+
+    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+    <p id="text" style="display:none"><a href="aboutus.html">Checkbox is CHECKED!</a></p>
+
+
+
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+<input type="checkbox" id="myCheck1" onclick="myFunction1()">
+<p id="text1" style="display:none">Checkbox</a></p>
+
+
+
+<script>
+function myFunction1() {
+  var checkBox = document.getElementById("myCheck1");
+  var text = document.getElementById("text1");
+  if (checkBox.checked == true){
+    text1.style.display = "block";
+  } else {
+     text1.style.display = "none";
+  }
+}
+</script>
+<button onclick="myOnClickFn()" >Submit</button>>
+<script>
+  function myOnClickFn(){
+    document.location.href="welcome.html";
+  }
+
+</script>
+<!--<form action="//www.html.am/html-codes/forms/html-form-tag-action.cfm" target="result" method="get">
+    <p>What would you like for lunch?</p>
+    <input type="checkbox" name="fruit" value="Apple"> Apple
+    <input type="checkbox" name="fruit" value="Orange"> Orange 
+    <input type="checkbox" name="fruit" value="Banana"> Banana 
+    <p><input type="submit" value="Submit"></p>
+    </form>
+    <h3>Result:</h3>-->
+    <!--<iframe name="result" style="height:100px;width:200px;"></iframe>-->
+    
+
+</body>
+
+</html>
