@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "dbHungrezy",
+    "MONGO_PASSWORD": "dbHungrezyDone",
+    "MONGO_DATABASE": "MyHungrezy",
+    "SENDGRID_KEY": "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"
+  }
+}
