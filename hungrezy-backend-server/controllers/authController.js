@@ -67,7 +67,7 @@ exports.signupUser = (req, res, next) => {
     .then((savedUser) => {
       transporter.sendMail({
         to: email,
-        from: "hungrezyfoods@gmail.com",
+        from: "your email address",
         subject: "Verify your Account on Hungrezy",
         html: `
                       <p>Please verify your email by clicking on the link below - Hungrezy</p>
@@ -239,7 +239,7 @@ exports.signupSeller = (req, res, next) => {
     .then((savedSeller) => {
       transporter.sendMail({
         to: email,
-        from: "hungrezyfoods@gmail.com",
+        from: "your email address",
         subject: "Verify your Account on Hungrezy",
         html: `
                       <p>Please verify your email by clicking on the link below - Hungrezy</p>
