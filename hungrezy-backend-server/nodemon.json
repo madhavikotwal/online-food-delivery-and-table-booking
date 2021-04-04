@@ -3,6 +3,6 @@
     "MONGO_USER": "dbHungrezy",
     "MONGO_PASSWORD": "dbHungrezyDone",
     "MONGO_DATABASE": "MyHungrezy",
-    "SENDGRID_KEY": "enter your sendgrid key"
+    "SENDGRID_KEY": "your_sendgrid_key"
   }
 }
